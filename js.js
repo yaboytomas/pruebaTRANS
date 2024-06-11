@@ -71,7 +71,7 @@ $(document).ready(function() {
         users.push({ name, surname, dob, email, position, doj });
 
         var userElement = $(`
-            <div class="col-4">
+            <div class="col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">${name} ${surname}</h5>
