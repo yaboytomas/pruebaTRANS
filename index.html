@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Empresa de Construcción</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Empresa de Construcción</a>
+</nav>
+
+<section class="container mt-4">
+    <h2>Propósito de la página</h2>
+    <p>Esta página sirve como plataforma de registro de usuarios.</p>
+</section>
+
+<section class="container mt-4">
+    <h2>Usuarios</h2>
+    <div id="user-list" class="row"></div>
+</section>
+
+<section class="container mt-4">
+    <h2>Registro de Usuarios</h2>
+    <form id="user-form">
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="surname">Apellido</label>
+            <input type="text" class="form-control" id="surname" required>
+        </div>
+        <div class="form-group">
+            <label for="dob">Fecha de Nacimiento</label>
+            <input type="date" class="form-control" id="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="position">Cargo</label>
+            <select class="form-control" id="position" required>
+                <option value="">Seleccione un cargo</option>
+                <option value="ingeniero">Ingeniero</option>
+                <option value="arquitecto">Arquitecto</option>
+                <option value="obrero">Obrero</option>
+                <option value="supervisor">Supervisor</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="doj">Fecha de Ingreso</label>
+            <input type="date" class="form-control" id="doj" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Confirmar Datos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="confirmModalBody">
+                <!-- Los datos del usuario se llenarán aquí -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="confirmButton">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Incluir jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Incluir archivo JavaScript personalizado -->
+<script src="js.js"></script>
+</body>
+</html>
