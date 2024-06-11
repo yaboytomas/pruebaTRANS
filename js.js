@@ -29,6 +29,13 @@ $(document).ready(function() {
         return true;
     }
 
+    // Set custom validation messages
+    $('#name, #surname, #dob, #email, #position, #doj').on('invalid', function() {
+        this.setCustomValidity('Todos los campos son obligatorios');
+    }).on('input', function() {
+        this.setCustomValidity('');
+    });
+
     $('#user-form').on('submit', function(e) {
         e.preventDefault();
 
