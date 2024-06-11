@@ -90,3 +90,8 @@ body {
     border-top: 1px solid #dee2e6; /* Add border to footer */
     padding: 1rem; /* Increase padding */
 }
+
+.modal-footer .btn-secondary {
+    background-color: red;
+    border-color: red;
+}
