@@ -22,14 +22,13 @@ $(document).ready(function() {
         var dobDate = new Date(dob);
         dobDate.setFullYear(dobDate.getFullYear() + 18);
         if (new Date(doj) < dobDate) {
-            alert('El trabajador no pudo ingresar antes de los 18 anos');
+            alert('El trabajador no puede ingresar antes de los 18 anos');
             return false;
         }
 
         return true;
     }
 
-    // Set custom validation messages
     $('#name, #surname, #dob, #email, #position, #doj').on('invalid', function() {
         this.setCustomValidity('Todos los campos son obligatorios');
     }).on('input', function() {
