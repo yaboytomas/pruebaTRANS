@@ -51,10 +51,10 @@ $(document).ready(function() {
         var doj = $('#doj').val();
 
         $('#confirmModalBody').html(`
-            <p>Nombre y Apellido: ${name} ${surname}</p>
-            <p>Correo electrónico: ${email}</p>
-            <p>Cargo: ${position}</p>
-            <p>Fecha de ingreso: ${doj}</p>
+            <p><strong>Nombre y Apellido:</strong> ${name} ${surname}</p>
+            <p><strong>Correo electrónico:</strong> ${email}</p>
+            <p><strong>Cargo:</strong> ${position}</p>
+            <p><strong>Fecha de ingreso:</strong> ${doj}</p>
         `);
 
         $('#confirmModal').modal('show');
