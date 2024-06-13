@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a56d13-03f8-47bd-a478-d0cbbd15dd95" name="Changes" comment="what is this xml">
-      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
-    </list>
+    <list default="true" id="f1a56d13-03f8-47bd-a478-d0cbbd15dd95" name="Changes" comment="what is this xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +53,7 @@
       <workItem from="1718142913105" duration="1254000" />
       <workItem from="1718144394619" duration="1109000" />
       <workItem from="1718206224712" duration="625000" />
-      <workItem from="1718293393270" duration="2603000" />
+      <workItem from="1718293393270" duration="2767000" />
     </task>
     <task id="LOCAL-00001" summary="what is this xml">
       <option name="closed" value="true" />
@@ -98,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718295823788</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="what is this xml">
+      <option name="closed" value="true" />
+      <created>1718296153847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718296153847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
