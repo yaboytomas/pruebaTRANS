@@ -3,14 +3,16 @@ body {
     background-color: #ADD8E6;
     color: #333;
     line-height: 1.6;
+    border: 3px solid white;
+    padding: 10px;
 }
 
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #ADD8E6, #070000);
-    border: 3px solid white;
+    background: linear-gradient(to right, #f7f8fa, #070000);
+    border: 4px solid white;
 }
 
 .navbar-brand {
