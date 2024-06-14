@@ -29,6 +29,7 @@ $(document).ready(function() {
         return true;
     }
 
+
     $('#name, #surname, #dob, #email, #position, #doj').on('invalid', function() {
         this.setCustomValidity('Todos los campos son obligatorios');
     }).on('input', function() {
