@@ -46,6 +46,12 @@ body {
 
 #user-list .card-body {
     flex-grow: 1;
+    text-align: center;
+}
+
+#user-list .remove-button {
+    display: block;
+    margin: 0 auto;
 }
 
 #user-form {
@@ -80,12 +86,14 @@ body {
 }
 
 .modal-content {
-    border: 1px solid #1a3b5e;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    transform:  rotateX(10deg);
+    margin: 1;
     border-radius: 0.3rem;
     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
-    transform:  rotateX(10deg);
-    background-color: #fff;
-    margin: 1;
 }
 
 @media (max-width: 1200px) {
