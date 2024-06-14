@@ -6,10 +6,14 @@ body {
 
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
 }
 
-.text-center {
-    text-align: center;
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 1px;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .container {
@@ -24,7 +28,24 @@ body {
 }
 
 #user-list .col {
+    display: flex;
+    flex-direction: column;
+}
+
+#user-list .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#user-list .card {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
+}
+
+#user-list .card-body {
+    flex-grow: 1;
 }
 
 #user-form {
@@ -44,6 +65,8 @@ body {
     border-color: #007bff;
     color: #fff;
     padding: 10px 20px;
+    display: block;
+    margin: 0 auto ;
 }
 
 #user-form button:hover {
