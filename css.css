@@ -2,23 +2,26 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ADD8E6;
     color: #333;
+    line-height: 1.6;
 }
 
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
+    background: linear-gradient(to right, #ADD8E6, #070000);
 }
 
 .navbar-brand {
     font-size: 35px;
     font-weight: 1px;
-    text-shadow: 1px 1px 2px #000000;
+    color: white !important;
+    text-shadow: 1px 1px 2px black, 0 0 25px #6c6c6e, 0 0 5px #f6f6f8;
 }
 
 .container {
-    max-width: 960px;
-    padding: 15px;
+    max-width: 1150px;
+    padding: 20px;
 }
 
 .container h2 {
@@ -96,6 +99,7 @@ body {
     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
 }
 
+
 @media (max-width: 1200px) {
     .container h2 {
         font-size: 1.75rem;
@@ -146,4 +150,10 @@ body {
 .modal-footer .btn-secondary {
     background-color: red;
     border-color: red;
+}
+
+.modal-footer .btn-secondary:hover {
+    /* Add your hover styles here. For example: */
+    background-color: darkred;
+    border-color: darkred;
 }
